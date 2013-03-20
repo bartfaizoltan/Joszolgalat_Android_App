@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (c) 2010 Ushahidi Inc All rights reserved Contact: team@ushahidi.com 
+	Website: http://www.ushahidi.com GNU Lesser General Public License Usage 
+	This file may be used under the terms of the GNU Lesser General Public License 
+	version 3 as published by the Free Software Foundation and appearing in the 
+	file LICENSE.LGPL included in the packaging of this file. Please review the 
+	following information to ensure the GNU Lesser General Public License version 
+	3 requirements will be met: http://www.gnu.org/licenses/lgpl.html. If you 
+	have questions regarding the use of this file, please contact Ushahidi developers 
+	at team@ushahidi.com.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="txt_phonenumber">Mobile phone number</string>
+    <string name="hint_phonenumber">For send report only.</string>
+    <string name="total_reports">Number of reports</string>
+    <string name="hint_total_reports">The total number of reports to fetch from the selected deployment.</string>
+    <string name="no_reports">There are no reports to be shown</string>
+
+    <!-- about screen -->
+    <string name="ushahidi_url">ushahidi.com</string>
+    <string name="internet_connection">Hálózati probléma, internetkapcsolat szükséges</string>
+    <string name="empty_report_title">Add meg a jelentés címét</string>
+    <string name="empty_report_description">Add meg a jelentés leírását</string>
+    <string name="empty_report_location">The location name field is .</string>
+    <string name="empty_report_categories">Válassz legalább egy kategóriát</string>
+    <string name="hint_location">Add meg a pozíciót</string>
+    <string name="could_not_fetch_reports">Nem tudom letölteni a jelentéseket</string>
+
+    <!-- Add location screen -->
+    <string name="title">Cím</string>
+    <string name="date">Dátum</string>
+    <string name="photo">Fotó</string>
+    <string name="please_wait">Várj...</string>
+    <string name="choose_method">Válassz módot</string>
+    <string name="how_to_select_pic">Váaszd ki hogyan szeretnél képet feltölteni</string>
+    <string name="camera_option">Kamera</string>
+    <string name="gallery_option">Gallery</string>
+    <string name="network_error">Hálózati hiba</string>
+    <string name="network_error_msg">Hálózati hiba, internetkapcsolat szükséges</string>
+    <string name="file_system_error">Fájlrendszer hiba</string>
+    <string name="file_system_error_msg">Fájlrendszer hiba, ellenőrizd az elérési utat!</string>
+    <string name="read_more">Tovább olvasom...</string>
+
+    <!-- Checkin Strings -->
+    <string name="checkin_message">Üzenet</string>
+    <string name="checkin_enter_msg_hint">Add meg az üzenetet</string>
+    <string name="checkin_empty_message">Adj meg bejelentkezési üzenetet</string>
+    <string name="could_not_fetch_checkin">Could not fetch check ins.</string>
+    <string name="checkin_enter_firstname_hint">Adj meg keresztnevet</string>
+    <string name="checkin_enter_lastname_hint">Adj meg vezetéknevet</string>
+    <string name="checkin_enter_email_hint">Adj meg email-t</string>
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Type here to filter the list below...</string>
+    <string name="maps_fetched_successful">Maps successfully fetched</string>
+    <string name="could_not_fetch_data">Couldn\'t fetch new maps due to network error.</string>
+    <!-- The description that will show up in the search settings for this source. -->
+    <string name="found_maps">Found maps</string>
+    <!-- pull to refresh list -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Betöltés...</string>
+    <string name="pull_to_refresh_tap_label">Érintsd hogy frissítsen...</string>
+    <!-- sharing -->
+    <string name="share_template">Check out<xliff:g id="title">%1$s</xliff:g> at<xliff:g id="reporturl">%2$s</xliff:g></string>
+    <string name="title_share">Share using</string>
+    <string name="select_distance">Select distance in km</string>
+    <!-- photos -->
+    <string name="preview_photo">Photo\%\</string>
+    <!-- deployments -->
+    <string name="clear_all">Mindent töröl</string>
+    <string name="confirm_clear">Valóban mindent töröl?</string>
+    <string name="items_cleared">Minden sikeresen törölve</string>
+    <string name="no_items_cleared">No items to clear</string>
+    <string name="fix_error">Valós URL-t adj meg!</string>
+    <string name="recent_reports">Recent Reports</string>
+    <string name="minutes">Minutes</string>
+    <string name="team">Team</string>
+    <string name="twitter">Twitter</string>
+    <string name="contact">Contact</string>
+    <string name="media">Media</string>
+    <string name="facebook">Facebook</string>
+
+    <!-- Photo resize preferences -->
+    <string name="photo_resize_title">Kép beállítások</string>
+    <string name="photo_resize_summary">Kép átméretezése</string>
+    <string name="photo_size_pixels">képpont</string>
+
+    <!-- DEFAULT USHAHIDI DEPLOYMENT TO USE. DON'T REMOVE THIS LINE. RATHER EDIT THE VALUE -->
+    <string name="default_deployment" />
+
+    <!-- empty latitude -->
+    <string name="invalid_latitude">Invalid value entered for latitude. Eg valid value 3.4958585</string>
+    <string name="invalid_longitude">Invalid value entered for longitude. Eg valid value -3.4958585</string>
+
+    <!-- Open GeoSMS -->
+    <string name="less_report_title">The title field must be at least 3 and no more 200 characters long.</string>
+    <string name="less_report_location">The location name must be at least 3 characters.</string>
+    <!-- new strings -->
+    <string name="app_name">Jószolgálat</string>
+    <string name="load">Betölt</string>
+    <string name="loading_">Betöltés...</string>
+    <string name="loaded">Betöltve</string>
+    <string name="not_loaded">Nincs betöltve</string>
+    <string name="save">Ment</string>
+    <string name="saving_">Mentés...</string>
+    <string name="saved">Mentve</string>
+    <string name="not_saved">Nincs mentve</string>
+    <string name="unsaved_changes">Nem mentett módosítások</string>
+    <string name="no_items">Nincsenek elemek</string>
+    <string name="discard">Elvet</string>
+    <string name="cancel">Mégsem</string>
+    <string name="menu_refresh">Frissít</string>
+    <string name="menu_search">Keres</string>
+    <string name="menu_share">Megoszt</string>
+    <string name="example_label">Example Label</string>
+    <string name="settings">Beállítások</string>
+    <string name="about">About</string>
+    <string name="synchronize">Synchronize</string>
+    <string name="maps">Térképek</string>
+    <string name="map">Térkép</string>
+    <string name="default_location">Alap pozíció</string>
+    <string name="add_a_photo">Adj hozzá fotót</string>
+    <string name="choose_categories">Válassz kategóriát</string>
+    <string name="enter_map_details">Add meg a térkép adatait</string>
+    <string name="checkin">Check In</string>
+    <string name="checkins">Check Ins</string>
+    <string name="report">Bejelentés</string>
+    <string name="reports">Bejelentések</string>
+    <string name="add_report">Bejelentek</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="would_you_like_to_save_your_changes_">El akarod menteni a módosításokat?</string>
+    <string name="edit">Szerkeszt</string>
+    <string name="enter_description">Adj meg leírást</string>
+    <string name="enter_name">Adj meg nevet</string>
+    <string name="enter_url">Adj meg URL-t</string>
+    <string name="map_deleted">Map deleted</string>
+    <string name="map_deleted_failed">Failed to map</string>
+    <string name="admin">Admin</string>
+    <string name="categories">Kategóriák</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="ok">Rendben</string>
+    <string name="error_occured">Error occurred while fetching </string>
+    <string name="photos">Fotók</string>
+    <string name="news">Hírek</string>
+    <string name="video">Videó</string>
+    <string name="audio">Hang</string>
+    <string name="no_news">No News</string>
+    <string name="no_video">No Video</string>
+    <string name="no_photos">No Photos</string>
+    <string name="no_comments">No Comments</string>
+    <string name="all_categories">Összes kategória</string>
+
+    <plurals name="no_of_images">
+        <item quantity="one">%d image</item>
+        <item quantity="other">%d images</item>
+    </plurals>
+    <plurals name="no_of_news">
+        <item quantity="one">%d news</item>
+        <item quantity="other">%d news</item>
+    </plurals>
+    <plurals name="no_of_videos">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <plurals name="no_of_comments">
+        <item quantity="one">%d comment</item>
+        <item quantity="other">%d comments</item>
+    </plurals>
+
+    <string name="previous">Előző</string>
+    <string name="next">Következő</string>
+    <string name="comment">Megjegyzés</string>
+    <string name="comments">Megjegyzések</string>
+    <string name="share">Megoszt</string>
+    <string name="traffic">Forgalom</string>
+    <string name="satellite">Műhold</string>
+    <string name="normal">Normál</string>
+    <string name="clear">Töröl</string>
+    <string name="cleared">Törölve</string>
+    <string name="not_cleared">Nincs törölve</string>
+    <string name="search_reports">Search reports...</string>
+    <string name="search_maps">Search maps...</string>
+    <string name="pending_upload">Pending Upload</string>
+    <string name="fetched">Fetched</string>
+    <string name="required_fields">Required Fields</string>
+    <string name="title">Cím</string>
+    <string name="category">Kategória</string>
+    <string name="location">Pozíció</string>
+    <string name="description">Megjegyzés</string>
+    <string name="latitude">Szélesség (lat.)</string>
+    <string name="longitude">Hosszúság (long.)</string>
+    <string name="date_and_time">Dátum és idő</string>
+    <string name="enter_news_url">Adj meg hír URL-t</string>
+    <string name="unsaved_changes">Nem mentett módosítások</string>
+    <string name="want_to_cancel">Valóban mégsem?</string>
+    <string name="added">Hozzáadva</string>
+    <string name="uploaded">Feltöltve</string>
+    <string name="update">Frissít</string>
+    <string name="delete">Töröl</string>
+    <string name="verified">Ellenőrizve</string>
+    <string name="unverified">Ellenőrizetlen</string>
+    <string name="remove">Eltávolít</string>
+    <string name="delete_report">Jelentés törlése</string>
+    <string name="want_to_delete">Valóban törlés?</string>
+    <string name="failed">Sikertelen</string>
+    <string name="connection_timeout">Connection time</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="all_users">Összes felhasználó</string>
+    <string name="add_checkin">Add Checkin</string>
+    <string name="users">Felhasználók</string>
+    <string name="checkin_is_enabled">Checkin is enabled</string>
+    <string name="search_checkins">Search Checkins...</string>
+    <string name="delete_checkins">Delete checkins</string>
+    <string name="personal_information">Személyes információk</string>
+    <string name="add_map_by_url">Térkép hozzáaása URL-ből</string>
+    <string name="find_maps_around_me">Térkép keresése a közelben</string>
+    <string name="add_map">Térkép hozzáadása</string>
+    <string name="finding_map">Térkép keresés...</string>
+    <string name="uploading">Feltöltés...</string>
+    <string name="full_name">Teljes név</string>
+    <string name="enter_full_name">Add meg a teljes neved</string>
+    <string name="valid_email_address">Adj meg valós emailcímet</string>
+    <string name="enter_comment">Adj meg legalább 3 karakter hosszú megjegyzést</string>
+    <string name="could_not_fetch_comment">Nem sikerült lekérni a megjegyzést</string>
+    <string name="clear_all_map">Az összes térkép törlése</string>
+    <string name="refresh">Frissít</string>
+    <string name="no_checkin">Nincs bejelentkezés</string>
+    <string name="add_photo">Fotó hozzáadása</string>
+    <string name="select_category">Válassz kategóriát</string>
+    <string name="change_date">Dátum módosítás</string>
+    <string name="change_time">Idő módosítás</string>
+    <string name="prompt_mesg">Válaszd ki a kategóriát</string>
+    <string name="invalid_email_address">A megadott emailcím érvénytelen</string>
+    <string name="choose_categories">Válassz kategóriákat</string>
+    <string name="location_disabled">GPS kikapcsolva</string>
+    <string name="location_reenable">Szeretnéd a Hely és Biztonság beállítási menüpontban engedélyezni a GPS-t?</string>
+    <string name="basic_settings">Alap beállítások</string>
+    <string name="txt_first_name">Keresztnév</string>
+    <string name="hint_first_name">Bejelentésnél megjelenik (nem kötelező)</string>
+    <string name="txt_last_name">Vezetéknév</string>
+    <string name="hint_last_name">Bejelentésnél megjelenik (nem kötelező)</string>
+    <string name="txt_email">Emailcím</string>
+    <string name="hint_email">Csak kapcsolat felvételre</string>
+    <string name="txt_phonenumber">Mobil telefonszám</string>
+    <string name="hint_phonenumber">Csak jelentés küldésére</string>
+    <string name="total_reports">Jelentések száma</string>
+    <string name="hint_total_reports">A kiválasztott eseményhez kapcsolódó jelentések száma</string>
+    <string name="no_reports">Nincs ide tartozó ejelntés</string>
+    <string name="send_report_dlg_title">Jelentés küldése</string>
+    <string name="internet">Internet</string>
+    <string name="opengeosms">Open GeoSMS</string>
+    <string name="pending">Folyamatban</string>
+	<string name="joszolg_desc">A www.joszolgalat.hu mindenkit szívesen fogad a soraiba, akik hajlandóak segíteni a hóhelyzethez hasonló helyzetekben. A csoport politikamentes, mindenkinek tiszteletben tartjuk a világnézetét és gondolatait, hiszen segíteni mindannyian más okból szeretnénk. Mert segíteni jó!</string>
+</resources>
